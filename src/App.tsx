@@ -10,7 +10,15 @@ interface NcaaProps {
 }
 
 function Welcome() {
-  return <h1>Welcome to the NCAA Basketball Team List!</h1>;
+  return (
+    <div>
+      <h1>Welcome to the NCAA Basketball Team List!</h1>
+      <h3>
+        This is a list of all NCAA Basketball teams and their mascots. Find your
+        school below!
+      </h3>
+    </div>
+  );
 }
 
 // Function to build an individual record
